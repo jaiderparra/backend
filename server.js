@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import caballerosRoutes from "./routes/caballeros.js";
-import "./db.js"; // aquí ya se ejecuta la conexión a MongoDB
+import "./db.js"; 
 import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
 import { swaggerOptions } from "./openapi.js";
