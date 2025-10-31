@@ -62,6 +62,5 @@ router.get("/:nombre", async (req, res) => {
     res.status(500).json({ message: "Error del servidor" });
   }
 });
-console.log(import.meta.url);
-path.resolve();
+
 export default router;
