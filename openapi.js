@@ -16,3 +16,4 @@ export const swaggerOptions = {
   },
    apis: ['./backend/routes/*.js', './backend/models/*.js']
 };
+console.log(import.meta.url);
